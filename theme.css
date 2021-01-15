@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 4in;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    color: blue;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td.money{
+    text-align: right;
+    color: green;
+}

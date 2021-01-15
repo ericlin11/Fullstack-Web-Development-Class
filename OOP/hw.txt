@@ -1,0 +1,24 @@
+/*class Temp extends Employee{
+
+        public function getWeeklySalary(){
+            if ($this->hoursWorked > 40){
+                $OTWage = $this->hourlyWage * 1.5;
+                $OTHours = $this->hoursWorked - 40;
+                $OTPay = $OTWage * $OTHours;
+                return($OTPay + 40 * $this->hourlyWage);
+            } else{
+                return ($this->hoursWorked * $this->hourlyWage);
+            }
+        }
+
+    }
+        $c = new Consultant(42,100);
+    $weeklySalary = $c->getWeeklySalary();
+    print_r($c);
+    echo "Weekly salary is $$weeklySalary.";
+
+    $t = new Temp(42,10);
+    $weeklySalary = $t->getWeeklySalary();
+    print_r($t);
+    echo "Weekly salary is $$weeklySalary.";
+    */
